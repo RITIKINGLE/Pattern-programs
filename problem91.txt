@@ -1,0 +1,27 @@
+/*
+Ak
+Fl	Bg
+Jm	Gh	Cd
+Mn	Ki	He	Db
+Oo	Nj	Lf	Ic	Ea
+*/
+
+public class problem91{
+	public static void main(String args[]){
+		int n=5;
+		int count1= 1;
+		int count2 = (n*(n-1)/2)+1;
+		
+		for(int i=n; i>=i; i--)
+		{
+			int c  = count1;
+			for(int j=i; j<=n; j++)
+			{
+				System.out.print((char)(c));
+				c -= j;
+			}
+			System.out.println();
+			count+=i;
+		}
+	}
+}
